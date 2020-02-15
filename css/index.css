@@ -256,6 +256,7 @@ img {
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+  width: var(--boxwidth);
 }
 @media (max-width: 500px) {
   .home .content-section .img-content {
@@ -349,4 +350,21 @@ img {
 .home .content-pick .destination .btn:hover {
   background: #FFFFFF;
   color: #17A2B8;
+}
+#headerP {
+  border: 1px solid black;
+  background-color: lightblue;
+  width: 700px;
+  height: 100px;
+  overflow: scroll;
+}
+.paused {
+  background-color: pink;
+  color: black;
+}
+#animate {
+  width: 900px;
+  height: 50px;
+  position: absolute;
+  background-color: hotpink;
 }
